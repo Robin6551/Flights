@@ -1,6 +1,6 @@
 
-
-CREATE TABLE Flights(
+1st table--
+		CREATE TABLE Flights(
 					S_N INT,
 					YEAR INT,
 					MONTH INT,
@@ -30,18 +30,18 @@ CREATE TABLE Flights(
 					CANCELLATION_REASON VARCHAR(20)
 
 );
-
+second table--
 CREATE TABLE Airlines(
-					IATA_CODE Varchar(20),
-					AIRLINE Varchar(40)					
+			IATA_CODE Varchar(20),
+			AIRLINE Varchar(40)					
 );
-
+third table
 CREATE TABLE CANCELLATION_CODES(
-								CANCELLATION_REASON varchar(5),
-								CANCELLATION_DESCRIPTION varchar(20)
+				CANCELLATION_REASON varchar(5),
+				CANCELLATION_DESCRIPTION varchar(20)
 								
 );
-
+forth table
 CREATE TABLE airports (
     IATA_CODE VARCHAR(10) PRIMARY KEY,
     AIRPORT VARCHAR(255),
